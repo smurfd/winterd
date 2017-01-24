@@ -15,14 +15,6 @@ if exists("syntax_on")
 endif
 let g:colors_name="winterd"
 
-let s:background = &background
-
-if &background == "dark"
-  set background=dark
-else
-  set background=light
-endif
-
 hi Normal        guifg=#3f3f3f  guibg=white               ctermfg=gray  ctermbg=white
 hi Title         guifg=black    guibg=white               ctermfg=black  ctermbg=white
 hi Cursor        guifg=white    guibg=#aaaaaa             ctermfg=white  ctermbg=blue
@@ -54,7 +46,6 @@ if version >= 700
   hi CursorColumn  guifg=#999999    guibg=#f0f0f0       ctermfg=blue  ctermbg=white
   hi CursorLineNr  guifg=#999999  guibg=#f0f0f0         ctermfg=blue  ctermbg=white
 endif
-" guibg=#bbddff 
 
 "
 " Syntax highlighting 
