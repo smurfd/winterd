@@ -1,5 +1,5 @@
 " Name : winterd
-" Version : 0.1
+" Version : 0.2
 " Maintainer : https://www.github.com/smurfd
 " License : The MIT License (MIT)
 "
@@ -15,37 +15,38 @@ if exists("syntax_on")
 endif
 let g:colors_name="winterd"
 
-hi Normal        guifg=#3f3f3f  guibg=white               ctermfg=gray  ctermbg=white
-hi Title         guifg=black    guibg=white               ctermfg=black  ctermbg=white
-hi Cursor        guifg=white    guibg=#aaaaaa             ctermfg=white  ctermbg=blue
+hi Normal        guifg=#3f3f3f  guibg=white               ctermfg=gray      ctermbg=none
+hi Title         guifg=black    guibg=white               ctermfg=black     ctermbg=none
+hi Cursor        guifg=white    guibg=#aaaaaa             ctermfg=white     ctermbg=gray
 
-hi LineNr        guifg=#c1c1c1  guibg=#f0f0f0             ctermfg=lightblue  ctermbg=lightgray
+hi LineNr        guifg=#c1c1c1  guibg=#f0f0f0             ctermfg=lightblue ctermbg=lightgray
 hi Visual        guifg=#888888  guibg=#bbddff             ctermfg=darkgray  ctermbg=lightblue
-hi NonText       guifg=#fafafa  guibg=#fafafa             ctermfg=lightgray  ctermbg=lightgray
-hi StatusLine    guifg=#222222  guibg=#eeeeee  gui=none   ctermfg=black  ctermbg=white
-hi StatusLineNC  guifg=#888888  guibg=#eeeeee  gui=none   ctermfg=gray  ctermbg=white
-hi VertSplit     guifg=#eeeeee  guibg=#eeeeee  gui=none   ctermfg=white  ctermbg=white
-hi ModeMsg       guifg=black    guibg=#bbddff  gui=none   ctermfg=black  ctermbg=lightblue
-hi ErrorMsg      guifg=black    guibg=#ffbbbb  gui=none   ctermfg=black  ctermbg=lightred
+hi NonText       guifg=#fafafa  guibg=#fafafa             ctermfg=lightgray ctermbg=lightgray
+hi StatusLine    guifg=#222222  guibg=#eeeeee  gui=none   ctermfg=black     ctermbg=white
+hi StatusLineNC  guifg=#888888  guibg=#eeeeee  gui=none   ctermfg=gray      ctermbg=white
+hi VertSplit     guifg=#eeeeee  guibg=#eeeeee  gui=none   ctermfg=white     ctermbg=white
+hi ModeMsg       guifg=black    guibg=#bbddff  gui=none   ctermfg=black     ctermbg=lightblue
+hi ErrorMsg      guifg=black    guibg=#ffbbbb  gui=none   ctermfg=black     ctermbg=lightred
 hi Error         guifg=#333333  guibg=white    gui=none   ctermfg=darkgray  ctermbg=white
-hi Folded        guifg=#999999  guibg=#fafafa             ctermfg=gray  ctermbg=white
+hi Folded        guifg=#999999  guibg=#fafafa             ctermfg=gray      ctermbg=none
 
 "
 " Vim +7.x specific
 "
 
 if version >= 700
-  hi MatchParen  guifg=#888888  guibg=#bbddff  gui=none
-  hi Pmenu       guifg=#60656f  guibg=#f0f5ff  gui=none
-  hi PmenuSel    guifg=white    guibg=#3585ef  gui=bold
-  hi PmenuSbar   guifg=#d0d5dd  guibg=#e0e5ee  gui=bold
-  hi PmenuThumb  guifg=#e0e5ee  guibg=#c0c5dd  gui=bold
-  hi Search                     guibg=#fcfcaa  gui=none
-  hi IncSearch                  guibg=#ffff33  gui=bold
-  hi CursorLine    guibg=#f0f0f0                        ctermbg=lightblue
-  hi CursorColumn  guifg=#999999    guibg=#f0f0f0       ctermfg=blue  ctermbg=white
-  hi CursorLineNr  guifg=#999999  guibg=#f0f0f0         ctermfg=blue  ctermbg=white
+  hi MatchParen   guifg=#888888  guibg=#bbddff  gui=none
+  hi Pmenu        guifg=#60656f  guibg=#f0f5ff  gui=none
+  hi PmenuSel     guifg=white    guibg=#3585ef  gui=bold
+  hi PmenuSbar    guifg=#d0d5dd  guibg=#e0e5ee  gui=bold
+  hi PmenuThumb   guifg=#e0e5ee  guibg=#c0c5dd  gui=bold
+  hi Search                      guibg=#fcfcaa  gui=none
+  hi IncSearch                   guibg=#ffff33  gui=bold
+  hi CursorLine    guibg=#f0f0f0                            ctermbg=lightblue
+  hi CursorColumn  guifg=#999999 guibg=#f0f0f0              ctermfg=blue        ctermbg=white
+  hi CursorLineNr  guifg=#999999 guibg=#f0f0f0              ctermfg=blue        ctermbg=white
 endif
+" guibg=#bbddff 
 
 "
 " Syntax highlighting 
