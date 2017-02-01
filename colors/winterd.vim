@@ -1,5 +1,5 @@
 " Name : winterd
-" Version : 0.2
+" Version : 0.3
 " Maintainer : https://www.github.com/smurfd
 " License : The MIT License (MIT)
 "
@@ -42,9 +42,9 @@ if version >= 700
   hi PmenuThumb   guifg=#e0e5ee  guibg=#c0c5dd  gui=bold
   hi Search                      guibg=#fcfcaa  gui=none
   hi IncSearch                   guibg=#ffff33  gui=bold
-  hi CursorLine    guibg=#f0f0f0                            ctermbg=lightblue
-  hi CursorColumn  guifg=#999999 guibg=#f0f0f0              ctermfg=blue        ctermbg=white
-  hi CursorLineNr  guifg=#999999 guibg=#f0f0f0              ctermfg=blue        ctermbg=white
+  hi CursorLine   guifg=#aaaaaa  guibg=#f0f0f0                            ctermbg=lightblue
+  hi CursorColumn guifg=#999999  guibg=#f0f0f0              ctermfg=blue        ctermbg=white
+  hi CursorLineNr guifg=#bbddff  guibg=#f0f0f0              ctermfg=blue        ctermbg=white
 endif
 " guibg=#bbddff 
 
