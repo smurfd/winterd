@@ -71,6 +71,7 @@ hi PreProc       guifg=#70aae5
 hi Special       guifg=#70aae5
 "bbddff  
 hi Keyword       guifg=#509be8  
+hi SpecialKey    guifg=#cccccc      guibg=#f3f3f3
 
 hi link Function        Normal
 hi link Character       Constant
