@@ -9,7 +9,7 @@
 " Works best in GVIM 
 " for it to work great in a Terminal, add 'set termguicolors' 
 " to your ~/.vimrc file
-"                                  
+" 
 
 hi clear
 
